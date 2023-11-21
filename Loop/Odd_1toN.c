@@ -1,0 +1,15 @@
+//WAP to print odd number for 1 to N(User input) using while loop
+
+#include<stdio.h>
+main()
+{
+	int a=1,b;
+	printf("Enter Number to end loop:");
+	scanf("%d",&b);
+	
+	while(a<=b)
+	{
+		printf("%d ",a);
+		a=a+2;
+	}
+}
